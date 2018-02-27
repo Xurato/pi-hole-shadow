@@ -15,7 +15,7 @@ label {color:#000;}
 .small-box h3, .small-box p {color:#fff;}
 .layout-boxed {background:#1E282D;}
 .content p{color:#fff;}
-.box-body {background-color: #1E282D;color:#fff;}
+.box-body {background-color:#1E282D;color:#fff;border-top-left-radius: 0;border-top-right-radius: 0;border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
 .even{background-color:#cccccc;}
 label{color:#fff;}
 .nav-tabs-custom > .tab-content {background:#1E282D;}
@@ -31,3 +31,4 @@ input::placeholder {color:#000;}
 .panel-default {border-color:#1E282D;background: #1E282D;color: #fff;}
 .panel-default > .panel-heading {color: #fff;background-color: #1E282D;border-color: #1E282D;}
 .box.box-solid.box-info {border: 1px solid #1E282D;}
+.table-bordered td, .table-bordered th {border: none !important; border: 1px solid transparent !important;}
